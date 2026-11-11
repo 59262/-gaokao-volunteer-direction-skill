@@ -1,0 +1,27 @@
+# 本地环境与凭证
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+
+# 编辑器/系统状态
+.DS_Store
+Thumbs.db
+.obsidian/workspace.json
+.obsidian/cache/
+
+# 本项目的本地比较、渲染和导出产物
+_compare_extract/
+_prd_render/
+
+# 当前工作区中的源文档可能包含个人或内部资料；公开前请单独确认
+提问文档.docx
+prd文档.docx
+
+# 仅供本地使用的审计与发布准备材料
+SECURITY.md
+SECURITY_AUDIT.md
+OPEN_SOURCE_CHECKLIST.md
+_public_release_staging/
+*-public-release.zip
